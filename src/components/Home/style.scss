@@ -1,0 +1,25 @@
+.product-img {
+    width: 400px;
+    height: 400px;
+    margin: 20px auto;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    transition: all 0.25s;
+
+    &:active {
+        width: 390px;
+        height: 390px;
+    }
+
+    &.selected {
+        border: 5px solid lawngreen;
+    }
+}
+
+.next-btn {
+    position: fixed;
+    width: 150px;
+    height: 40px;
+    right: 50px;
+    top: 30px;
+}
